@@ -1,20 +1,25 @@
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 #container {
     margin: 0 auto;
-    max-width: 150vmin;
-    height: 80vmin;
-    background-color: black;
+    width: 97vw;
+    height: 97vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 #greyContainer {
     margin: 0 auto;
     display: flex;
     width: 80%;
-    height: 50vmin;
-    background-color: green;
+    height: 70vmin;
+    margin-top: 8vmin;
 }
 
 #centerCont {
-    width: 90%;
+    width: 96%;
     height: 100%;
 }
 
@@ -35,7 +40,7 @@
     height: 30%;
     background-color: rgba(0, 0, 0, 0.5);
     position: relative;
-    top: -31%;
+    top: -21.5vmin;
     padding-right: 0;
     margin-right: 0;
 }
@@ -49,7 +54,7 @@
 }
 
 #greyContainer .arrows {
-    width: 5%;
+    width: 2%;
     padding: 1vmin;
     background-color: white;
 }
@@ -57,7 +62,6 @@
 #greyContainer .arrows img {
     position: relative;
     top: 45%;
-    left: 20%;
     height: 5vmin;
 }
 
@@ -74,10 +78,10 @@
     position: relative;
     margin: 0 auto;
     display: flex;
-    width: 80%;
+    width: 70%;
     height: 10vmin;
-    margin-top: 8vmin;
-    justify-content: space-between;
+    margin-top: 5vmin;
+    justify-content: center;
 }
 
 #selectors .tumbPic {
@@ -94,7 +98,7 @@
     width: 1vmin;
     position: absolute;
     background-color: rgb(70, 61, 61);
-    top: 3.3vmin;
+    top: 3.2vmin;
     left: 45%;
     /* border-top: black solid 2px;
     border-left: black solid 2px; */
@@ -127,7 +131,9 @@
     border-radius: 1vmin;
     font-size: 1.5vmin;
     padding: 1vmin;
-    top: -16vmin;
+    top: -14vmin;
+    left: -2vmin;
+    width: 10vmin;
     margin-bottom: 0;
 }
 
