@@ -1,12 +1,12 @@
 body {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #container {
     margin: 0 auto;
     width: 97vw;
     height: 97vh;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     overflow: hidden;
 }
 
@@ -55,16 +55,16 @@ body {
 }
 
 #greyContainer .arrows {
-    width: 5%;
+    width: 3vmin;
     padding: 1vmin;
     background-color: white;
 }
 
 #greyContainer .arrows img {
     position: relative;
-    top: 45%;
+    top: 31.9vmin;
     height: 5vmin;
-    left: 20%;
+
 }
 
 .spin {
