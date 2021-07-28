@@ -55,12 +55,15 @@ let currentPhoto = 0
 
 let loadPhoto = ((photoNumber) => {
     $(".tumbPic").css("margin", "1vmin")
-    $('#photo').attr('src', data[photoNumber].photo)
+    $('#photo').css('opacity', '0')
+    setTimeout(()=> {
+        $('#photo').css('opacity', '1')
+        $('#photo').attr('src', data[photoNumber].photo)
+    }, 500)
     $('#contentTitle').html(data[photoNumber].title)
     $('#contentPar').html(data[photoNumber].description)
     $(`[data-id='${photoNumber}']`).css("margin-bottom", "1.5vmin")
     $(`[data-id='${photoNumber}']`).css('margin-top', '0vmin')
-    $("#link").trigger("hover");
 })
 
 
