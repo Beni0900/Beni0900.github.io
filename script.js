@@ -51,6 +51,7 @@ let data = [
 
 let currentPhoto = 0
 
+$('#photo').attr('src', data[currentPhoto].photo)
 
 
 let loadPhoto = ((photoNumber) => {
